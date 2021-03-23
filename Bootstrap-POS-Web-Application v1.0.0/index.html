@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <title>BBQ & Grilling | Accessories</title>
+    <link href="asserts/img/logo.png" rel="icon">
+    <link href="asserts/css/bootstrap.css" rel="stylesheet">
+    <link href="asserts/stylesheet/Styles.css" rel="stylesheet">
+</head>
+<body>
+
+<!--navigation bar-->
+<nav class="navbar  navbar-expand-lg  navbar-light bg-white">
+    <div class="container-fluid ">
+        <a class="navbar-brand d-flex ms-lg-4" href="#"><img alt="" class="d-none d-lg-block "
+                                                             src="asserts/img/logo.png"><span>BBQ</span> WORLD</a>
+        <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+                class="navbar-toggler"
+                data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse" type="button">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse ms-lg-5" id="navbarSupportedContent">
+            <ul class="navbar-nav d-flex text-info bg-white   me-auto mb-2 mb-lg-0">
+                <li class="nav-item ms-lg-3">
+                    <a aria-current="page" class="nav-link active" href="#" id="navbarDropdownHome">Home</a>
+                </li>
+
+                <li class="nav-item dropdown ms-lg-3">
+                    <a aria-expanded="false" class="nav-link dropdown-toggle " data-bs-toggle="dropdown"
+                       href="#"
+                       id="navbarDropdownCustomer" role="button">
+                        Customer
+                    </a>
+                    <ul aria-labelledby="navbarDropdown" class="dropdown-menu ">
+                        <li><a class="dropdown-item" data-bs-target="#modalSaveCustomer"
+                               data-bs-toggle="modal">Save new Customer</a></li>
+                        <div class="dropdown-divider"></div>
+                        <li><a class="dropdown-item" data-bs-target="#modalSearchCustomer"
+                               data-bs-toggle="modal">Search Customer</a></li>
+                        <div class="dropdown-divider"></div>
+                        <li><a class="dropdown-item" href="customer.html">View Customers</a></li>
+
+                    </ul>
+                </li>
+
+                <li class="nav-item dropdown ms-lg-3">
+                    <a aria-expanded="false" class="nav-link dropdown-toggle"
+                       data-bs-toggle="dropdown" href="#"
+                       id="navbarDropdownItem" role="button">
+                        Items
+                    </a>
+                    <ul aria-labelledby="navbarDropdown" class="dropdown-menu">
+                        <li><a class="dropdown-item" data-bs-target="#modalSaveItem"
+                               data-bs-toggle="modal">Save Item</a></li>
+                        <div class="dropdown-divider"></div>
+                        <li><a class="dropdown-item" data-bs-target="#modalSearchItem"
+                               data-bs-toggle="modal">Search Item</a></li>
+                        <div class="dropdown-divider"></div>
+                        <li><a class="dropdown-item" href="item.html">View Items</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown ms-lg-3">
+                    <a aria-expanded="false" class="nav-link dropdown-toggle"
+                       data-bs-toggle="dropdown" href="#"
+                       id="navbarDropdownOrder" role="button">
+                        Order
+                    </a>
+                    <ul aria-labelledby="navbarDropdown" class="dropdown-menu">
+                        <li><a class="dropdown-item" data-bs-target="#modalNewOrder"
+                               data-bs-toggle="modal">New Order</a></li>
+                        <div class="dropdown-divider"></div>
+                        <li><a class="dropdown-item" href="order.html">View All Orders</a></li>
+                    </ul>
+                </li>
+
+                <li class="nav-item ms-lg-3">
+                    <a class="nav-link " data-bs-target="#aboutModal"
+                       data-bs-toggle="modal">About</a>
+                </li>
+
+            </ul>
+        </div>
+        <a href="">
+            <img alt="" class="me-4" src="asserts/img/Shopping%20Cart%20Loaded_50px_1.png"
+                 style="width: 40px;height: 30px">
+        </a>
+        <form class="d-flex  ">
+            <input aria-label="Search" class="form-control me-2" placeholder="Search" type="search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+
+    </div>
+</nav>
+
+<!--image-->
+<img alt="" class="img-fluid  w-100 " src="asserts/img/1.jpg">
+
+<!--about model-->
+
+<div aria-hidden="true" aria-labelledby="staticBackdropLabel" class="modal fade" data-bs-backdrop="static"
+     data-bs-keyboard="false"
+     id="aboutModal" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="aboutModalTitle">About us</h5>
+                <button aria-label="Close" class="btn-close" data-bs-dismiss="modal" type="button"></button>
+            </div>
+            <div class="modal-body">
+                <!--//////-->
+                <h1 style="color: #0a53be">since 2021</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci alias amet dolor eaque eum
+                    excepturi illo</p>
+                <p style="color: #9a0527">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci alias amet
+                    dolor eaque eum
+                    excepturi illo, illum itaque labore libero molestias obcaecati placeat porro quis quos repellat
+                    tempora vel vero.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. .</p>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci alias amet dolor eaque eum
+                    excepturi illo, illum itaque labore libero molestias obcaecati placeat porro quis quos repellat
+                    tempora vel vero.</p>
+                <!--///////-->
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" data-bs-dismiss="modal" type="button">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--SaveCustomer model-->
+<div aria-hidden="true" aria-labelledby="staticBackdropLabel" class="modal fade" data-bs-backdrop="static"
+     data-bs-keyboard="false"
+     id="modalSaveCustomer" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="staticBackdropLabel">Save New Customer</h5>
+                <button aria-label="Close" class="btn-close" data-bs-dismiss="modal" type="button"></button>
+            </div>
+            <div class="modal-body">
+                <!--//////-->
+                <form>
+                    <div class="mb-3">
+                        <label class="form-label" for="cusID">Customer ID</label>
+                        <input aria-describedby="emailHelp" class="form-control" id="cusID" type="email">
+
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label" for="cusName">Customer name</label>
+                        <input aria-describedby="emailHelp" class="form-control" id="cusName" type="email">
+
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label" for="cusPW">City</label>
+                        <input class="form-control" id="cusPW" type="password">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label" for="cusContact">Contact</label>
+                        <input class="form-control" id="cusContact" type="password">
+                    </div>
+
+                    <div class="mb-3">
+                        <label>Birth of Date</label>
+                        <input class="form-control" id="cusDOB" type="date">
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label" for="cusGender">Gender</label>
+
+                        <select aria-label="Default select example" class="form-select" id="cusGender">
+                            <option value="1"></option>
+                            <option value="1">Male</option>
+                            <option value="2">Female</option>
+                        </select>
+                    </div>
+
+                    <div class="mb-3 form-check">
+                        <input class="form-check-input" id="exampleCheck1" type="checkbox">
+                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                    </div>
+                </form>
+                <!--///////-->
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" data-bs-dismiss="modal" type="button">Close</button>
+                <button class="btn btn-primary" type="button">Save</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--SearchCustomer model-->
+<div aria-hidden="true" aria-labelledby="searchCus" class="modal fade" data-bs-backdrop="static"
+     data-bs-keyboard="false"
+     id="modalSearchCustomer" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="searchCus">Search Customer</h5>
+                <button aria-label="Close" class="btn-close" data-bs-dismiss="modal" type="button"></button>
+            </div>
+            <div class="modal-body">
+                <!--//////-->
+                <form>
+                    <div class="mb-3">
+                        <label class="form-label" for="cusID">Customer ID</label>
+                        <input aria-describedby="emailHelp" class="form-control" id="cusSearchID" type="email">
+
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label" for="cusName">Customer name</label>
+                        <input aria-describedby="emailHelp" class="form-control" id="cusSearchName" type="email">
+
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label" for="cusPW">City</label>
+                        <input class="form-control" id="cusSearchPW" type="password">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label" for="cusContact">Contact</label>
+                        <input class="form-control" id="cusSearchContact" type="password">
+                    </div>
+
+                    <div class="mb-3">
+                        <label>Birth of Date</label>
+                        <input class="form-control" id="cusSearchDOB" type="text">
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label" for="cusGender">Gender</label>
+                        <input class="form-control" id="cusSearchGender" type="text">
+
+                    </div>
+
+                    <div class="mb-3 form-check">
+                        <input class="form-check-input" id="exampleCheck3" type="checkbox">
+                        <label class="form-check-label" for="exampleCheck3">Update</label>
+                        <button class="btn btn-primary" type="button">Update</button>
+                    </div>
+                    <div class="mb-3 form-check">
+                        <input class="form-check-input" id="exampleCheck4" type="checkbox">
+                        <label class="form-check-label" for="exampleCheck4">Delete</label>
+                        <button class="btn btn-danger ms-1" style="width: 100px" type="button">Delete</button>
+                    </div>
+                </form>
+                <!--///////-->
+            </div>
+            <!--            <div class="modal-footer ">-->
+            <!--                <button class="btn btn-secondary" data-bs-dismiss="modal" type="button">Close</button>-->
+
+            <!--            </div>-->
+        </div>
+    </div>
+</div>
+
+
+<!--SaveItem model-->
+<div aria-hidden="true" aria-labelledby="staticBackdropLabel" class="modal fade" data-bs-backdrop="static"
+     data-bs-keyboard="false"
+     id="modalSaveItem" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="saveItemTitle">Save New Item</h5>
+                <button aria-label="Close" class="btn-close" data-bs-dismiss="modal" type="button"></button>
+            </div>
+            <div class="modal-body">
+                <!--//////-->
+                <form>
+                    <div class="mb-3">
+                        <label class="form-label" for="itemID">Item ID</label>
+                        <input class="form-control" id="itemID" type="text">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label" for="itemName">Item name</label>
+                        <input aria-describedby="emailHelp" class="form-control" id="itemName" type="text">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label" for="itemQuantity">Availabe quantity</label>
+                        <input class="form-control" id="itemQuantity" type="number">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label" for="itemDescription">Description</label>
+                        <textarea aria-label="With textarea" class="form-control" id="itemDescription"></textarea>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label" for="itemPrice">Item unit Price</label>
+                        <input class="form-control" id="itemPrice" type="text">
+                    </div>
+
+                    <div class="mb-3">
+
+                        <div class="row ">
+                            <div class="col-12 mx-auto">
+
+                                <!-- Upload image input-->
+                                <div class="input-group mb-3  bg-white shadow-sm">
+                                    <input class="form-control border-0" id="upload" onchange="readURL(this);"
+                                           type="file">
+                                    <!--                                    <label id="upload-label" for="upload" class="font-weight-light text-muted">Choose file</label>-->
+                                    <div class="input-group-append">
+                                        <label class="btn btn-light m-0 rounded-pill px-4" for="upload"> <i
+                                                class="fa fa-cloud-upload mr-2 text-muted"></i><small
+                                                class="text-uppercase font-weight-bold text-muted">Choose
+                                            file</small></label>
+                                    </div>
+                                </div>
+
+                                <!-- Uploaded image area-->
+                                <p class="font-italic text-dark text-center">The image uploaded will be rendered inside
+                                    the box below.</p>
+                                <div class="image-area mt-4"><img alt="" class="img-fluid rounded shadow-sm mx-auto d-block" id="imageResult"
+                                                                  src="#">
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="mb-3 form-check">
+                        <input class="form-check-input" id="exampleCheck2" type="checkbox">
+                        <label class="form-check-label" for="exampleCheck2">Check me out</label>
+                    </div>
+
+
+                </form>
+                <!--///////-->
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" data-bs-dismiss="modal" type="button">Close</button>
+                <button class="btn btn-primary" type="button">Save</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--SearchItem model-->
+<div aria-hidden="true" aria-labelledby="staticBackdropLabel" class="modal fade" data-bs-backdrop="static"
+     data-bs-keyboard="false"
+     id="modalSearchItem" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="searchItemTitle">Save New Item</h5>
+                <button aria-label="Close" class="btn-close" data-bs-dismiss="modal" type="button"></button>
+            </div>
+            <div class="modal-body">
+                <!--//////-->
+                <form>
+                    <div class="mb-3">
+                        <label class="form-label" for="itemSearchID">Item ID</label>
+                        <input class="form-control" id="itemSearchID" type="text">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label" for="itemSearchName">Item name</label>
+                        <input aria-describedby="emailHelp" class="form-control" id="itemSearchName" type="text">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label" for="itemSearchQuantity">Availabe quantity</label>
+                        <input class="form-control" id="itemSearchQuantity" type="number">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label" for="itemSearchDescription">Description</label>
+                        <textarea aria-label="With textarea" class="form-control" id="itemSearchDescription"></textarea>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label" for="itemSearchPrice">Item unit Price</label>
+                        <input class="form-control" id="itemSearchPrice" type="text">
+                    </div>
+
+                    <div class="mb-3">
+
+                        <div class="row ">
+                            <div class="col-12 mx-auto">
+
+                                <!-- Upload image input-->
+                                <div class="input-group mb-3  bg-white shadow-sm">
+                                    <input class="form-control border-0" id="uploadNew" onchange="readURL(this);"
+                                           type="file">
+                                    <!--                                    <label id="upload-label" for="upload" class="font-weight-light text-muted">Choose file</label>-->
+                                    <div class="input-group-append">
+                                        <label class="btn btn-light m-0 rounded-pill px-4" for="upload"> <i
+                                                class="fa fa-cloud-upload mr-2 text-muted"></i><small
+                                                class="text-uppercase font-weight-bold text-muted">Choose
+                                            file</small></label>
+                                    </div>
+                                </div>
+
+                                <!-- Uploaded image area-->
+                                <p class="font-italic text-dark text-center">The image uploaded will be rendered inside
+                                    the box below.</p>
+                                <div class="image-area mt-4"><img alt="" class="img-fluid rounded shadow-sm mx-auto d-block" id="imageResultNew"
+                                                                  src="#">
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="mb-3 form-check">
+                        <input class="form-check-input" id="exampleCheck5" type="checkbox">
+                        <label class="form-check-label" for="exampleCheck5">Update</label>
+                        <button class="btn btn-primary" type="button">Update</button>
+                    </div>
+                    <div class="mb-3 form-check">
+                        <input class="form-check-input" id="exampleCheck6" type="checkbox">
+                        <label class="form-check-label" for="exampleCheck6">Delete</label>
+                        <button class="btn btn-danger ms-1" style="width: 100px" type="button">Delete</button>
+                    </div>
+
+
+                </form>
+                <!--///////-->
+            </div>
+            <!--            <div class="modal-footer">-->
+            <!--                <button class="btn btn-secondary" data-bs-dismiss="modal" type="button">Close</button>-->
+            <!--                <button class="btn btn-primary" type="button">Save</button>-->
+            <!--            </div>-->
+        </div>
+    </div>
+</div>
+
+
+<!--Order modal-->
+<div aria-hidden="true" aria-labelledby="staticBackdropLabel" class="modal fade" data-bs-backdrop="static"
+     data-bs-keyboard="false"
+     id="modalNewOrder" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="orderTitle">New Order</h5>
+                <button aria-label="Close" class="btn-close" data-bs-dismiss="modal" type="button"></button>
+            </div>
+            <div class="modal-body">
+                <!--//////-->
+                <form>
+                    <div class="mb-3">
+                        <label class="form-label" for="orderID">Order ID</label>
+                        <input class="form-control" id="orderID" type="text">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label" for="orderDate">Order Date</label>
+                        <input class="form-control" id="orderDate" type="date">
+
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label" for="cusOrderID">Customer ID</label>
+
+                        <select aria-label="Default select example" class="form-select" id="cusOrderID">
+                            <option value="1"></option>
+                            <option value="1">C001</option>
+                            <option value="2">C002</option>
+                            <option value="2">C003</option>
+                        </select>
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label" for="itemOrderID">Item ID</label>
+
+                        <select aria-label="Default select example" class="form-select" id="itemOrderID">
+                            <option value="1"></option>
+                            <option value="1">I001</option>
+                            <option value="2">I002</option>
+                            <option value="2">I003</option>
+                        </select>
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label" for="orderQuantity">pcs</label>
+                        <input class="form-control" id="orderQuantity" type="number">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label" for="orderTotal">Total</label>
+                        <input class="form-control" id="orderTotal" type="number">
+                    </div>
+
+                    <div class="mb-3 form-check">
+                        <input class="form-check-input" id="exampleCheck7" type="checkbox">
+                        <label class="form-check-label" for="exampleCheck7">Check me out</label>
+                    </div>
+                </form>
+                <!--///////-->
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" data-bs-dismiss="modal" type="button">Close</button>
+                <button class="btn btn-primary" type="button">Save</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!--text trending products-->
+<h1 class="h1 mt-3 ms-3 " style="font-family: 'Eras Bold ITC'">Trending products</h1>
+<!--trending products-->
+<div class="container-fluid  mb-5 " id="catalouge">
+    <div class="row row-cols-1 row-cols-md-4 g-4 ">
+        <div class="col">
+            <div class="card h-100">
+                <img alt="..." class="card-img-top" src="asserts/img/item01.jpg">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Protable Char-Griller 3leg</h5>
+
+                    <p class="card-text">Rs.9,750/=</p>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-success  mx-auto d-md-block">Add to cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+                <img alt="..." class="card-img-top" src="asserts/img/item02.jpg">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Char-Griller 4leg</h5>
+
+                    <p class="card-text">Rs.11,999/=</p>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-success  mx-auto d-md-block">Add to cart</button>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="col">
+            <div class="card h-100">
+                <img alt="..." class="card-img-top" src="asserts/img/Antique.jpg">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Antique Char-Griller </h5>
+
+                    <p class="card-text">Rs.12,350/=</p>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-success  mx-auto d-md-block">Add to cart</button>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="col">
+            <div class="card h-100">
+                <img alt="..." class="card-img-top" src="asserts/img/routing.png">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Routing Char-Griller </h5>
+
+                    <p class="card-text">Rs.15,350/=</p>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-success  mx-auto d-md-block">Add to cart</button>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="col">
+            <div class="card h-100">
+                <img alt="..." class="card-img-top" src="asserts/img/charcole.jpg">
+                <div class="card-body text-center">
+                    <h5 class="card-title">charcoal </h5>
+
+                    <p class="card-text">Rs.350/=</p>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-success  mx-auto d-md-block">Add to cart</button>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="col">
+            <div class="card h-100">
+                <img alt="..." class="card-img-top" src="asserts/img/minisize.jpg">
+                <div class="card-body text-center">
+                    <h5 class="card-title">MiniSize Char-Griller </h5>
+
+                    <p class="card-text">Rs.5,650/=</p>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-success  mx-auto d-md-block">Add to cart</button>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="col">
+            <div class="card h-100">
+                <img alt="..." class="card-img-top" src="asserts/img/glouse.jpeg">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Glouse </h5>
+
+                    <p class="card-text">Rs.1,200/=</p>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-success  mx-auto d-md-block">Add to cart</button>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="col">
+            <div class="card h-100">
+                <img alt="..." class="card-img-top" src="asserts/img/Fullset.jpg">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Full Tool Kit </h5>
+
+                    <p class="card-text">Rs.2,400/=</p>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-success  mx-auto d-md-block">Add to cart</button>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</div>
+<div class="pt-5 " id="pageFooter">
+    <footer class="container-fluid footer">
+        <h6 class="text-center text-white mt-3">
+            Copyright © 2020 All right reserved</br> Website Powered BY GAYASH
+            THASMIKA</h6>
+    </footer>
+</div>
+
+
+<!--<script>-->
+<!--    /*  ==========================================-->
+<!--    SHOW UPLOADED IMAGE-->
+<!--* ========================================== */-->
+<!--    function readURL(input) {-->
+<!--        if (input.files && input.files[0]) {-->
+<!--            var reader = new FileReader();-->
+
+<!--            reader.onload = function (e) {-->
+<!--                $('#imageResult')-->
+<!--                    .attr('src', e.target.result);-->
+<!--            };-->
+<!--            reader.readAsDataURL(input.files[0]);-->
+<!--        }-->
+<!--    }-->
+
+<!--    $(function () {-->
+<!--        $('#upload').on('change', function () {-->
+<!--            readURL(input);-->
+<!--        });-->
+<!--    });-->
+
+<!--    /*  ==========================================-->
+<!--        SHOW UPLOADED IMAGE NAME-->
+<!--    * ========================================== */-->
+<!--    var input = document.getElementById( 'upload' );-->
+<!--    var infoArea = document.getElementById( 'upload-label' );-->
+
+<!--    input.addEventListener( 'change', showFileName );-->
+<!--    function showFileName( event ) {-->
+<!--        var input = event.srcElement;-->
+<!--        var fileName = input.files[0].name;-->
+<!--        infoArea.textContent = 'File name: ' + fileName;-->
+<!--    }-->
+<!--</script>-->
+
+<script src="asserts/js/bootstrap.js"></script>
+</body>
+</html>

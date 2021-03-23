@@ -1,0 +1,80 @@
+
+
+.navbar-brand span {
+    color: #E75204;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+
+.nav-link active :hover {
+    color: #ff9d00;
+
+}
+
+
+
+.navbar-brand img {
+    width: 50px;
+    height: 50px;
+
+
+}
+
+.navbar-brand {
+    font-size: 2.0rem;
+    /*color: #6bb403 !important;*/
+}
+
+
+
+.row {
+    justify-content: space-between;
+}
+
+.btn-primary {
+    background-color: #05a820;
+    width: 100px;
+}
+
+.modal-title{
+    font-family: Bahnschrift;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: .3s ease;
+
+}
+
+.card-footer > button {
+    /*position: absolute;*/
+    left: 50%;
+    bottom: -2%;
+}
+
+.card:hover {
+    transform: scale(1.02);
+    transition: .3s ease;
+
+}
+#pageFooter{
+    background-color: #000000;
+
+}
+#itemTable, #customerTable,#OrderTable{
+    position: absolute;
+    background: white;
+    top: 200px;
+    left: 0;
+    right: 0;
+}
+/*#customerTable{*/
+/*    position: absolute;*/
+/*    background: white;*/
+/*    top: 300px;*/
+/*    left: 0;*/
+/*    right: 0;*/
+/*}*/
