@@ -1,0 +1,1667 @@
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <meta content="width=device-width, initial-scale=1" name="viewport">-->
+<!--    <title>BBQ & Grilling | Accessories</title>-->
+<!--    <link href="asserts/img/logo.png" rel="icon">-->
+<!--    <link href="asserts/css/bootstrap.css" rel="stylesheet">-->
+<!--    <link href="asserts/stylesheet/Styles.css" rel="stylesheet">-->
+<!--</head>-->
+<!--<body>-->
+<!--<header>-->
+<!--    <nav class="navbar  navbar-expand-lg  navbar-light bg-white" id="nav">-->
+<!--        <div class="container-fluid ">-->
+<!--            <a class="navbar-brand d-flex ms-lg-4" href="#"><img alt="" class="d-none d-lg-block "-->
+<!--                                                                 src="asserts/img/logo.png"><span>BBQ</span> WORLD</a>-->
+<!--            <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"-->
+<!--                    class="navbar-toggler"-->
+<!--                    data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse" type="button">-->
+<!--                <span class="navbar-toggler-icon"></span>-->
+<!--            </button>-->
+<!--            <div class="collapse navbar-collapse ms-lg-5" id="navbarSupportedContent">-->
+<!--                <ul class="navbar-nav d-flex text-info bg-white   me-auto mb-2 mb-lg-0">-->
+<!--                    <li class="nav-item ms-lg-3">-->
+<!--                        <a aria-current="page" class="nav-link active" href="#" id="lnkHome">Home</a>-->
+<!--                    </li>-->
+
+<!--                    <li class="nav-item dropdown ms-lg-3">-->
+<!--                        <a aria-expanded="false" class="nav-link dropdown-toggle " data-bs-toggle="dropdown"-->
+<!--                           href="#"-->
+<!--                           id="navbarDropdownCustomer" role="button">-->
+<!--                            Customer-->
+<!--                        </a>-->
+<!--                        <ul aria-labelledby="navbarDropdown" class="dropdown-menu ">-->
+<!--                            <li><a class="dropdown-item" data-bs-target="#modalSaveCustomer"-->
+<!--                                   data-bs-toggle="modal">Save new Customer</a></li>-->
+<!--                            <div class="dropdown-divider"></div>-->
+<!--                            <li><a class="dropdown-item" data-bs-target="#modalSearchCustomer"-->
+<!--                                   data-bs-toggle="modal">Search Customer</a></li>-->
+<!--                            <div class="dropdown-divider"></div>-->
+<!--                            <li><a class="dropdown-item" href="#" id="lnkCust">View Customers</a></li>-->
+
+<!--                        </ul>-->
+<!--                    </li>-->
+
+<!--                    <li class="nav-item dropdown ms-lg-3">-->
+<!--                        <a aria-expanded="false" class="nav-link dropdown-toggle"-->
+<!--                           data-bs-toggle="dropdown" href="#"-->
+<!--                           id="navbarDropdownItem" role="button">-->
+<!--                            Items-->
+<!--                        </a>-->
+<!--                        <ul aria-labelledby="navbarDropdown" class="dropdown-menu">-->
+<!--                            <li><a class="dropdown-item" data-bs-target="#modalSaveItem"-->
+<!--                                   data-bs-toggle="modal">Save Item</a></li>-->
+<!--                            <div class="dropdown-divider"></div>-->
+<!--                            <li><a class="dropdown-item" data-bs-target="#modalSearchItem"-->
+<!--                                   data-bs-toggle="modal">Search Item</a></li>-->
+<!--                            <div class="dropdown-divider"></div>-->
+<!--                            <li><a class="dropdown-item" href="#" id="lnkItem">View Items</a></li>-->
+<!--                        </ul>-->
+<!--                    </li>-->
+<!--                    <li class="nav-item dropdown ms-lg-3">-->
+<!--                        <a aria-expanded="false" class="nav-link dropdown-toggle"-->
+<!--                           data-bs-toggle="dropdown" href="#"-->
+<!--                           id="navbarDropdownOrder" role="button">-->
+<!--                            Order-->
+<!--                        </a>-->
+<!--                        <ul aria-labelledby="navbarDropdown" class="dropdown-menu">-->
+<!--                            <li><a class="dropdown-item" data-bs-target="#modalNewOrder" data-bs-toggle="modal"-->
+<!--                                   id="btnNewOrder">New Order</a></li>-->
+<!--                            <div class="dropdown-divider"></div>-->
+
+<!--                            <li><a class="dropdown-item" data-bs-target="#modalSeachOrder" data-bs-toggle="modal"-->
+<!--                                   id="btnSearchOrder">Search Order</a></li>-->
+
+
+<!--                            <div class="dropdown-divider"></div>-->
+<!--                            <li><a class="dropdown-item" href="#" id="lnkOrder">View All Orders</a></li>-->
+<!--                        </ul>-->
+<!--                    </li>-->
+
+<!--                    <li class="nav-item ms-lg-3">-->
+<!--                        <a class="nav-link " data-bs-target="#aboutModal"-->
+<!--                           data-bs-toggle="modal">About</a>-->
+<!--                    </li>-->
+
+<!--                </ul>-->
+<!--            </div>-->
+<!--&lt;!&ndash;            <a href="">&ndash;&gt;-->
+<!--&lt;!&ndash;                <img alt="" class="me-4" src="asserts/img/Shopping%20Cart%20Loaded_50px_1.png"&ndash;&gt;-->
+<!--&lt;!&ndash;                     style="width: 40px;height: 30px">&ndash;&gt;-->
+<!--&lt;!&ndash;            </a>&ndash;&gt;-->
+<!--            <form class="d-flex  ">-->
+<!--                <input aria-label="Search" class="form-control me-2" placeholder="Search" type="search">-->
+<!--                <button class="btn btn-outline-success" type="submit">Search</button>-->
+<!--            </form>-->
+
+<!--        </div>-->
+<!--    </nav>-->
+<!--    &lt;!&ndash;about model&ndash;&gt;-->
+
+<!--    <div aria-hidden="true" aria-labelledby="staticBackdropLabel" class="modal fade" data-bs-backdrop="static"-->
+<!--         data-bs-keyboard="false"-->
+<!--         id="aboutModal" tabindex="-1">-->
+<!--        <div class="modal-dialog">-->
+<!--            <div class="modal-content">-->
+<!--                <div class="modal-header">-->
+<!--                    <h5 class="modal-title" id="aboutModalTitle">About us</h5>-->
+<!--                    <button aria-label="Close" class="btn-close" data-bs-dismiss="modal" type="button"></button>-->
+<!--                </div>-->
+<!--                <div class="modal-body">-->
+<!--                    &lt;!&ndash;//////&ndash;&gt;-->
+<!--                    <h1 style="color: #0a53be">Since 2021</h1>-->
+<!--                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci alias amet dolor eaque eum-->
+<!--                        excepturi illo</p>-->
+<!--                    <p style="color: #9a0527">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci alias-->
+<!--                        amet-->
+<!--                        dolor eaque eum-->
+<!--                        excepturi illo, illum itaque labore libero molestias obcaecati placeat porro quis quos repellat-->
+<!--                        tempora vel vero.</p>-->
+<!--                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. .</p>-->
+
+<!--                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci alias amet dolor eaque eum-->
+<!--                        excepturi illo, illum itaque labore libero molestias obcaecati placeat porro quis quos repellat-->
+<!--                        tempora vel vero.</p>-->
+<!--                    &lt;!&ndash;///////&ndash;&gt;-->
+<!--                </div>-->
+<!--                <div class="modal-footer">-->
+<!--                    <button class="btn btn-secondary" data-bs-dismiss="modal" type="button">Close</button>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+
+
+<!--    &lt;!&ndash;SaveCustomer model&ndash;&gt;-->
+<!--    <div aria-hidden="true" aria-labelledby="staticBackdropLabel" class="modal fade" data-bs-backdrop="static"-->
+<!--         data-bs-keyboard="false"-->
+<!--         id="modalSaveCustomer" tabindex="-1">-->
+<!--        <div class="modal-dialog">-->
+<!--            <div class="modal-content">-->
+<!--                <div class="modal-header">-->
+<!--                    <h5 class="modal-title" id="staticBackdropLabel">Save New Customer</h5>-->
+<!--                    <button aria-label="Close" class="btn-close" data-bs-dismiss="modal" type="button"></button>-->
+<!--                </div>-->
+<!--                <div class="modal-body">-->
+<!--                    &lt;!&ndash;//////&ndash;&gt;-->
+<!--                    <form>-->
+<!--                        <div class="mb-3">-->
+<!--                            <label class="form-label" for="cusID">Customer ID</label>-->
+<!--                            <input aria-describedby="emailHelp" class="form-control" id="cusID" type="text">-->
+
+<!--                        </div>-->
+<!--                        <div class="mb-3">-->
+<!--                            <label class="form-label" for="cusName">Customer name</label>-->
+<!--                            <input aria-describedby="emailHelp" class="form-control" id="cusName" type="txt">-->
+
+<!--                        </div>-->
+<!--                        <div class="mb-3">-->
+<!--                            <label class="form-label" for="cusPW">City</label>-->
+<!--                            <input class="form-control" id="cusPW" type="text">-->
+<!--                        </div>-->
+<!--                        <div class="mb-3">-->
+<!--                            <label class="form-label" for="cusContact">Contact</label>-->
+<!--                            <input class="form-control" id="cusContact" type="text">-->
+<!--                        </div>-->
+
+<!--                        <div class="mb-3">-->
+<!--                            <label>Birth of Date</label>-->
+<!--                            <input class="form-control" id="cusDOB" type="date">-->
+<!--                        </div>-->
+
+<!--                        <div class="mb-3">-->
+<!--                            <label class="form-label" for="cusGender">Gender</label>-->
+
+<!--                            <select aria-label="Default select example" class="form-select" id="cusGender">-->
+<!--                                <option value="1"></option>-->
+<!--                                <option value="1">Male</option>-->
+<!--                                <option value="2">Female</option>-->
+<!--                            </select>-->
+<!--                        </div>-->
+<!--                        <div class="mb-3">-->
+<!--                            <label>Salary</label>-->
+<!--                            <input class="form-control" id="cusSalary" type="text">-->
+<!--                        </div>-->
+
+
+<!--                        <div class="mb-3 form-check">-->
+<!--                            <input class="form-check-input" id="exampleCheck1" type="checkbox">-->
+<!--                            <label class="form-check-label" for="exampleCheck1">Check me out</label>-->
+<!--                        </div>-->
+<!--                    </form>-->
+<!--                    &lt;!&ndash;///////&ndash;&gt;-->
+<!--                </div>-->
+<!--                <div class="modal-footer">-->
+<!--                    <button class="btn btn-secondary" data-bs-dismiss="modal" type="button">Close</button>-->
+<!--                    <button class="btn btn-primary" id="btnSaveCus" type="button">Save</button>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+
+
+<!--    &lt;!&ndash;SearchCustomer model&ndash;&gt;-->
+<!--    <div aria-hidden="true" aria-labelledby="searchCus" class="modal fade" data-bs-backdrop="static"-->
+<!--         data-bs-keyboard="false"-->
+<!--         id="modalSearchCustomer" tabindex="-1">-->
+<!--        <div class="modal-dialog">-->
+<!--            <div class="modal-content">-->
+<!--                <div class="modal-header">-->
+<!--                    <h5 class="modal-title" id="searchCus">Search Customer</h5>-->
+<!--                    <button aria-label="Close" class="btn-close" data-bs-dismiss="modal" type="button"></button>-->
+<!--                </div>-->
+<!--                <div class="modal-body">-->
+<!--                    &lt;!&ndash;//////&ndash;&gt;-->
+<!--                    <form>-->
+<!--                        <div class="mb-3">-->
+<!--                            <label class="form-label" for="cusID">Customer ID</label>-->
+<!--                            <input aria-describedby="emailHelp" class="form-control" id="cusSearchID" type="text">-->
+
+<!--                        </div>-->
+<!--                        <div class="mb-3">-->
+<!--                            <label class="form-label" for="cusName">Customer name</label>-->
+<!--                            <input aria-describedby="emailHelp" class="form-control" id="cusSearchName" type="text">-->
+
+<!--                        </div>-->
+<!--                        <div class="mb-3">-->
+<!--                            <label class="form-label" for="cusPW">City</label>-->
+<!--                            <input class="form-control" id="cusSearchPW" type="text">-->
+<!--                        </div>-->
+<!--                        <div class="mb-3">-->
+<!--                            <label class="form-label" for="cusContact">Contact</label>-->
+<!--                            <input class="form-control" id="cusSearchContact" type="text">-->
+<!--                        </div>-->
+
+<!--                        <div class="mb-3">-->
+<!--                            <label>Birth of Date</label>-->
+<!--                            <input class="form-control" id="cusSearchDOB" type="text">-->
+<!--                        </div>-->
+
+<!--                        <div class="mb-3">-->
+<!--                            <label class="form-label" for="cusGender">Gender</label>-->
+<!--                            <input class="form-control" id="cusSearchGender" type="text">-->
+
+<!--                        </div>-->
+<!--                        <div class="mb-3">-->
+<!--                            <label class="form-label" for="cusSalary">Salary</label>-->
+<!--                            <input class="form-control" id="cusSearchSalary" type="text">-->
+
+<!--                        </div>-->
+
+<!--                        <div class="mb-3 form-check">-->
+<!--                            <input class="form-check-input" id="exampleCheck3" type="checkbox">-->
+<!--                            <label class="form-check-label" for="exampleCheck3">Update</label>-->
+<!--                            <button class="btn btn-primary" id="btnUpdateCus" type="button">Update</button>-->
+<!--                        </div>-->
+<!--                        <div class="mb-3 form-check">-->
+<!--                            <input class="form-check-input" id="exampleCheck4" type="checkbox">-->
+<!--                            <label class="form-check-label" for="exampleCheck4">Delete</label>-->
+<!--                            <button class="btn btn-danger ms-1" id="btnDeleteCus" style="width: 100px" type="button">-->
+<!--                                Delete-->
+<!--                            </button>-->
+<!--                        </div>-->
+<!--                    </form>-->
+<!--                    &lt;!&ndash;///////&ndash;&gt;-->
+<!--                </div>-->
+<!--                &lt;!&ndash;            <div class="modal-footer ">&ndash;&gt;-->
+<!--                &lt;!&ndash;                <button class="btn btn-secondary" data-bs-dismiss="modal" type="button">Close</button>&ndash;&gt;-->
+
+<!--                &lt;!&ndash;            </div>&ndash;&gt;-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+
+
+<!--    &lt;!&ndash;SaveItem model&ndash;&gt;-->
+<!--    <div aria-hidden="true" aria-labelledby="staticBackdropLabel" class="modal fade" data-bs-backdrop="static"-->
+<!--         data-bs-keyboard="false"-->
+<!--         id="modalSaveItem" tabindex="-1">-->
+<!--        <div class="modal-dialog">-->
+<!--            <div class="modal-content">-->
+<!--                <div class="modal-header">-->
+<!--                    <h5 class="modal-title" id="saveItemTitle">Save New Item</h5>-->
+<!--                    <button aria-label="Close" class="btn-close" data-bs-dismiss="modal" type="button"></button>-->
+<!--                </div>-->
+<!--                <div class="modal-body">-->
+<!--                    &lt;!&ndash;//////&ndash;&gt;-->
+<!--                    <form>-->
+<!--                        <div class="mb-3">-->
+<!--                            <label class="form-label" for="itemID">Item ID</label>-->
+<!--                            <input class="form-control" id="itemID" type="text">-->
+<!--                        </div>-->
+<!--                        <div class="mb-3">-->
+<!--                            <label class="form-label" for="itemName">Item name</label>-->
+<!--                            <input aria-describedby="emailHelp" class="form-control" id="itemName" type="text">-->
+<!--                        </div>-->
+<!--                        <div class="mb-3">-->
+<!--                            <label class="form-label" for="itemQuantity">Availabe quantity</label>-->
+<!--                            <input class="form-control" id="itemQuantity" type="number">-->
+<!--                        </div>-->
+<!--                        <div class="mb-3">-->
+<!--                            <label class="form-label" for="itemDescription">Description</label>-->
+<!--                            <textarea aria-label="With textarea" class="form-control" id="itemDescription"></textarea>-->
+<!--                        </div>-->
+<!--                        <div class="mb-3">-->
+<!--                            <label class="form-label" for="itemPrice">Item unit Price</label>-->
+<!--                            <input class="form-control" id="itemPrice" type="text">-->
+<!--                        </div>-->
+
+<!--                        <div class="mb-3">-->
+
+<!--                            <div class="row ">-->
+<!--                                <div class="col-12 mx-auto">-->
+
+<!--                                    &lt;!&ndash; Upload image input&ndash;&gt;-->
+<!--                                    <div class="input-group mb-3  bg-white shadow-sm">-->
+<!--                                        <input class="form-control border-0" id="upload" onchange="readURL(this);"-->
+<!--                                               type="file">-->
+<!--                                    </div>-->
+
+<!--                                    &lt;!&ndash; Uploaded image area&ndash;&gt;-->
+<!--                                    <p class="font-italic text-dark text-center">The image uploaded will be rendered-->
+<!--                                        inside-->
+<!--                                        the box below.</p>-->
+<!--                                    <div class="image-area mt-4"><img alt=""-->
+<!--                                                                      class="img-fluid rounded shadow-sm mx-auto d-block"-->
+<!--                                                                      id="imageResult" src="">-->
+<!--                                    </div>-->
+
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+
+
+<!--                        <div class="mb-3 form-check">-->
+<!--                            <input class="form-check-input" id="exampleCheck2" type="checkbox">-->
+<!--                            <label class="form-check-label" for="exampleCheck2">Check me out</label>-->
+<!--                        </div>-->
+
+
+<!--                    </form>-->
+<!--                    &lt;!&ndash;///////&ndash;&gt;-->
+<!--                </div>-->
+<!--                <div class="modal-footer">-->
+<!--                    <button class="btn btn-secondary" data-bs-dismiss="modal" type="button">Close</button>-->
+<!--                    <button class="btn btn-primary" id="btnSaveItem" type="button">Save</button>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+
+
+<!--    &lt;!&ndash;SearchItem model&ndash;&gt;-->
+<!--    <div aria-hidden="true" aria-labelledby="staticBackdropLabel" class="modal fade" data-bs-backdrop="static"-->
+<!--         data-bs-keyboard="false"-->
+<!--         id="modalSearchItem" tabindex="-1">-->
+<!--        <div class="modal-dialog">-->
+<!--            <div class="modal-content">-->
+<!--                <div class="modal-header">-->
+<!--                    <h5 class="modal-title" id="searchItemTitle">Search Item</h5>-->
+<!--                    <button aria-label="Close" class="btn-close" data-bs-dismiss="modal" type="button"></button>-->
+<!--                </div>-->
+<!--                <div class="modal-body">-->
+<!--                    &lt;!&ndash;//////&ndash;&gt;-->
+<!--                    <form>-->
+<!--                        <div class="mb-3">-->
+<!--                            <label class="form-label" for="itemSearchID">Item ID</label>-->
+<!--                            <input class="form-control" id="itemSearchID" type="text">-->
+<!--                        </div>-->
+<!--                        <div class="mb-3">-->
+<!--                            <label class="form-label" for="itemSearchName">Item name</label>-->
+<!--                            <input aria-describedby="emailHelp" class="form-control" id="itemSearchName" type="text">-->
+<!--                        </div>-->
+<!--                        <div class="mb-3">-->
+<!--                            <label class="form-label" for="itemSearchQuantity">Availabe quantity</label>-->
+<!--                            <input class="form-control" id="itemSearchQuantity" type="number">-->
+<!--                        </div>-->
+<!--                        <div class="mb-3">-->
+<!--                            <label class="form-label" for="itemSearchDescription">Description</label>-->
+<!--                            <textarea aria-label="With textarea" class="form-control"-->
+<!--                                      id="itemSearchDescription"></textarea>-->
+<!--                        </div>-->
+<!--                        <div class="mb-3">-->
+<!--                            <label class="form-label" for="itemSearchPrice">Item unit Price</label>-->
+<!--                            <input class="form-control" id="itemSearchPrice" type="text">-->
+<!--                        </div>-->
+<!--                        &lt;!&ndash; imgView&ndash;&gt;-->
+
+
+<!--                        &lt;!&ndash;                        <div class="text-center">&ndash;&gt;-->
+<!--                        &lt;!&ndash;                            <img alt="..." class="rounded" id="setSearchImg" src="">&ndash;&gt;-->
+<!--                        &lt;!&ndash;                        </div>&ndash;&gt;-->
+<!--                        &lt;!&ndash;new&ndash;&gt;-->
+<!--                        <div class="mb-3">-->
+
+<!--                            <div class="row ">-->
+<!--                                <div class="col-12 mx-auto">-->
+
+<!--                                    &lt;!&ndash; Upload image input&ndash;&gt;-->
+<!--                                    <div class="input-group mb-3  bg-white shadow-sm">-->
+<!--                                        <input class="form-control border-0" id="uploadNew" onchange="readURL(this);"-->
+<!--                                               type="file">-->
+<!--                                        &lt;!&ndash;                                    <label id="upload-label" for="upload" class="font-weight-light text-muted">Choose file</label>&ndash;&gt;-->
+<!--                                        <div class="input-group-append">-->
+<!--                                            <label class="btn btn-light m-0 rounded-pill px-4" for="upload"> <i-->
+<!--                                                    class="fa fa-cloud-upload mr-2 text-muted"></i><small-->
+<!--                                                    class="text-uppercase font-weight-bold text-muted">Choose-->
+<!--                                                file</small></label>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+
+<!--                                    &lt;!&ndash; Uploaded image area&ndash;&gt;-->
+<!--                                    <p class="font-italic text-dark text-center">The image uploaded will be rendered-->
+<!--                                        inside-->
+<!--                                        the box below.</p>-->
+<!--                                    <div class="image-area mt-4"><img alt=""-->
+<!--                                                                      class="img-fluid rounded shadow-sm mx-auto d-block"-->
+<!--                                                                      id="imageResultNew"-->
+<!--                                                                      src="#">-->
+<!--                                    </div>-->
+
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+
+<!--                        &lt;!&ndash;imgEnd&ndash;&gt;-->
+
+<!--                        <div class="mb-3 form-check">-->
+<!--                            <input class="form-check-input" id="exampleCheck5" type="checkbox">-->
+<!--                            <label class="form-check-label" for="exampleCheck5">Update</label>-->
+<!--                            <button class="btn btn-primary" id="btnUpdateItem" type="button">Update</button>-->
+<!--                        </div>-->
+<!--                        <div class="mb-3 form-check">-->
+<!--                            <input class="form-check-input" id="exampleCheck6" type="checkbox">-->
+<!--                            <label class="form-check-label" for="exampleCheck6">Delete</label>-->
+<!--                            <button class="btn btn-danger ms-1" id="btnDeleteItem" style="width: 100px" type="button">-->
+<!--                                Delete-->
+<!--                            </button>-->
+<!--                        </div>-->
+
+
+<!--                    </form>-->
+<!--                    &lt;!&ndash;///////&ndash;&gt;-->
+<!--                </div>-->
+<!--                &lt;!&ndash;            <div class="modal-footer">&ndash;&gt;-->
+<!--                &lt;!&ndash;                <button class="btn btn-secondary" data-bs-dismiss="modal" type="button">Close</button>&ndash;&gt;-->
+<!--                &lt;!&ndash;                <button class="btn btn-primary" type="button">Save</button>&ndash;&gt;-->
+<!--                &lt;!&ndash;            </div>&ndash;&gt;-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+
+
+<!--    &lt;!&ndash;Order modal&ndash;&gt;-->
+<!--    <div aria-hidden="true" aria-labelledby="staticBackdropLabel" class="modal fade" data-bs-backdrop="static"-->
+<!--         data-bs-keyboard="false"-->
+<!--         id="modalNewOrder" tabindex="-1">-->
+<!--        <div class="modal-dialog">-->
+<!--            <div class="modal-content">-->
+<!--                <div class="modal-header">-->
+<!--                    <h5 class="modal-title" id="orderTitle">New Order</h5>-->
+<!--                    <button aria-label="Close" class="btn-close" data-bs-dismiss="modal" type="button"></button>-->
+<!--                </div>-->
+<!--                <div class="modal-body">-->
+<!--                    &lt;!&ndash;//////&ndash;&gt;-->
+<!--                    <form>-->
+<!--                        <div class="mb-3">-->
+<!--                            <label class="form-label" for="orderID">Order ID</label>-->
+<!--                            <input class="form-control" id="orderID" type="text">-->
+<!--                        </div>-->
+<!--                        <div class="mb-3">-->
+<!--                            <label class="form-label" for="orderDate">Order Date</label>-->
+<!--                            <input class="form-control" id="orderDate" type="date">-->
+
+<!--                        </div>-->
+
+<!--                        <div class="mb-3">-->
+<!--                            <label class="form-label" for="cusOrderID">Customer ID</label>-->
+
+<!--                            <select aria-label="Default select example" class="form-select" id="cusOrderID">-->
+
+<!--                            </select>-->
+<!--                        </div>-->
+
+<!--                        <div class="mb-3">-->
+<!--                            <label class="form-label" for="itemOrderID">Item ID</label>-->
+
+<!--                            <select aria-label="Default select example" class="form-select" id="itemOrderID">-->
+
+<!--                            </select>-->
+<!--                        </div>-->
+<!--                        <div class="mb-3">-->
+<!--                            <label class="form-label" for="orderOnePcsPrice">Price(1psc)</label>-->
+<!--                            <input class="form-control " id="orderOnePcsPrice" type="text">-->
+<!--                        </div>-->
+<!--                        <div class="mb-3">-->
+<!--                            <label class="form-label" for="orderQuantity">pcs</label>-->
+<!--                            <input class="form-control" id="orderQuantity" type="number">-->
+<!--                        </div>-->
+<!--                        <div class="mb-3">-->
+<!--                            <label class="form-label" for="orderDiscount">Discount(%)</label>-->
+<!--                            <input class="form-control" id="orderDiscount" type="number">-->
+<!--                        </div>-->
+<!--                        <div class="mb-3">-->
+<!--                            <label class="form-label text-danger" for="orderTotal">Total</label>-->
+<!--                            <input class="form-control" id="orderTotal" type="number">-->
+<!--                        </div>-->
+
+<!--                        <div class="mb-3 form-check">-->
+<!--                            <input class="form-check-input" id="exampleCheck7" type="checkbox">-->
+<!--                            <label class="form-check-label" for="exampleCheck7">Check me out</label>-->
+<!--                        </div>-->
+<!--                    </form>-->
+<!--                    &lt;!&ndash;///////&ndash;&gt;-->
+<!--                </div>-->
+<!--                <div class="modal-footer">-->
+<!--                    <button class="btn btn-secondary" data-bs-dismiss="modal" type="button">Close</button>-->
+<!--                    <button class="btn btn-primary" id="btnsaveOrder" type="button">Save</button>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+
+
+<!--    &lt;!&ndash; search order modal&ndash;&gt;-->
+<!--    <div aria-hidden="true" aria-labelledby="staticBackdropLabel" class="modal fade" data-bs-backdrop="static"-->
+<!--         data-bs-keyboard="false"-->
+<!--         id="modalSeachOrder" tabindex="-1">-->
+<!--        <div class="modal-dialog">-->
+<!--            <div class="modal-content">-->
+<!--                <div class="modal-header">-->
+<!--                    <h5 class="modal-title" id="orderSearchTitle">Search Order</h5>-->
+<!--                    <button aria-label="Close" class="btn-close" data-bs-dismiss="modal" type="button"></button>-->
+<!--                </div>-->
+<!--                <div class="modal-body">-->
+<!--                    &lt;!&ndash;//////&ndash;&gt;-->
+<!--                    <form>-->
+<!--                        <div class="mb-3">-->
+<!--                            <label class="form-label" for="orderSearchID">Order ID</label>-->
+<!--                            <input class="form-control" id="orderSearchID" type="text">-->
+<!--                        </div>-->
+<!--                        <div class="mb-3">-->
+<!--                            <label class="form-label" for="orderSearchDate">Order Date</label>-->
+<!--                            <input class="form-control" id="orderSearchDate" type="text">-->
+
+<!--                        </div>-->
+
+<!--                        <div class="mb-3">-->
+<!--                            <label class="form-label" for="cusOrderSeachID">Customer ID</label>-->
+<!--                            <input class="form-control " id="cusOrderSeachID" type="text">-->
+
+<!--                        </div>-->
+
+<!--                        <div class="mb-3">-->
+<!--                            <label class="form-label" for="itemOrderSearchID">Item ID</label>-->
+<!--                            <input class="form-control " id="itemOrderSearchID" type="text">-->
+
+<!--                        </div>-->
+
+<!--                        <div class="mb-3">-->
+<!--                            <label class="form-label" for="orderSearchQuantity">pcs</label>-->
+<!--                            <input class="form-control" id="orderSearchQuantity" type="number">-->
+<!--                        </div>-->
+
+<!--                        <div class="mb-3">-->
+<!--                            <label class="form-label text-danger" for="orderSearchTotal">Total</label>-->
+<!--                            <input class="form-control" id="orderSearchTotal" type="number">-->
+<!--                        </div>-->
+
+<!--                    </form>-->
+<!--                    &lt;!&ndash;///////&ndash;&gt;-->
+<!--                </div>-->
+<!--                <div class="modal-footer">-->
+<!--                    <button class="btn btn-secondary" data-bs-dismiss="modal" type="button">Close</button>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+
+
+
+
+<!--</header>-->
+
+<!--&lt;!&ndash;dash&ndash;&gt;-->
+
+<!--<main id="dashboard">-->
+<!--    &lt;!&ndash;navigation bar&ndash;&gt;-->
+
+<!--    &lt;!&ndash;image&ndash;&gt;-->
+<!--    <img alt="" class="img-fluid  w-100 " src="asserts/img/1.jpg">-->
+
+
+<!--    &lt;!&ndash;text trending products&ndash;&gt;-->
+<!--    <h1 class="h1 mt-3 ms-3 " style="font-family: 'Eras Bold ITC'">Trending products</h1>-->
+<!--    &lt;!&ndash;trending products&ndash;&gt;-->
+<!--    <div class="container-fluid  mb-5 " id="catalouge">-->
+<!--        <div class="row row-cols-1 row-cols-md-4 g-4 ">-->
+<!--            <div class="col">-->
+<!--                <div class="card h-100">-->
+<!--                    <img alt="..." class="card-img-top" src="asserts/img/item01.jpg">-->
+<!--                    <div class="card-body text-center">-->
+<!--                        <h5 class="card-title">Protable Char-Griller 3leg</h5>-->
+
+<!--                        <p class="card-text">Rs.9,750/=</p>-->
+<!--                    </div>-->
+<!--&lt;!&ndash;                    <div class="card-footer">&ndash;&gt;-->
+<!--&lt;!&ndash;                        <button class="btn btn-success  mx-auto d-md-block">Add to cart</button>&ndash;&gt;-->
+<!--&lt;!&ndash;                    </div>&ndash;&gt;-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="col">-->
+<!--                <div class="card h-100">-->
+<!--                    <img alt="..." class="card-img-top" src="asserts/img/item02.jpg">-->
+<!--                    <div class="card-body text-center">-->
+<!--                        <h5 class="card-title">Char-Griller 4leg</h5>-->
+
+<!--                        <p class="card-text">Rs.11,999/=</p>-->
+<!--                    </div>-->
+<!--&lt;!&ndash;                    <div class="card-footer">&ndash;&gt;-->
+<!--&lt;!&ndash;                        <button class="btn btn-success  mx-auto d-md-block">Add to cart</button>&ndash;&gt;-->
+<!--&lt;!&ndash;                    </div>&ndash;&gt;-->
+<!--                </div>-->
+
+
+<!--            </div>-->
+<!--            <div class="col">-->
+<!--                <div class="card h-100">-->
+<!--                    <img alt="..." class="card-img-top" src="asserts/img/Antique.jpg">-->
+<!--                    <div class="card-body text-center">-->
+<!--                        <h5 class="card-title">Antique Char-Griller </h5>-->
+
+<!--                        <p class="card-text">Rs.12,350/=</p>-->
+<!--                    </div>-->
+<!--&lt;!&ndash;                    <div class="card-footer">&ndash;&gt;-->
+<!--&lt;!&ndash;                        <button class="btn btn-success  mx-auto d-md-block">Add to cart</button>&ndash;&gt;-->
+<!--&lt;!&ndash;                    </div>&ndash;&gt;-->
+<!--                </div>-->
+
+
+<!--            </div>-->
+<!--            <div class="col">-->
+<!--                <div class="card h-100">-->
+<!--                    <img alt="..." class="card-img-top" src="asserts/img/routing.png">-->
+<!--                    <div class="card-body text-center">-->
+<!--                        <h5 class="card-title">Routing Char-Griller </h5>-->
+
+<!--                        <p class="card-text">Rs.15,350/=</p>-->
+<!--                    </div>-->
+<!--&lt;!&ndash;                    <div class="card-footer">&ndash;&gt;-->
+<!--&lt;!&ndash;                        <button class="btn btn-success  mx-auto d-md-block">Add to cart</button>&ndash;&gt;-->
+<!--&lt;!&ndash;                    </div>&ndash;&gt;-->
+<!--                </div>-->
+
+
+<!--            </div>-->
+<!--            <div class="col">-->
+<!--                <div class="card h-100">-->
+<!--                    <img alt="..." class="card-img-top" src="asserts/img/charcole.jpg">-->
+<!--                    <div class="card-body text-center">-->
+<!--                        <h5 class="card-title">charcoal </h5>-->
+
+<!--                        <p class="card-text">Rs.350/=</p>-->
+<!--                    </div>-->
+<!--&lt;!&ndash;                    <div class="card-footer">&ndash;&gt;-->
+<!--&lt;!&ndash;                        <button class="btn btn-success  mx-auto d-md-block">Add to cart</button>&ndash;&gt;-->
+<!--&lt;!&ndash;                    </div>&ndash;&gt;-->
+<!--                </div>-->
+
+
+<!--            </div>-->
+<!--            <div class="col">-->
+<!--                <div class="card h-100">-->
+<!--                    <img alt="..." class="card-img-top" src="asserts/img/minisize.jpg">-->
+<!--                    <div class="card-body text-center">-->
+<!--                        <h5 class="card-title">MiniSize Char-Griller </h5>-->
+
+<!--                        <p class="card-text">Rs.5,650/=</p>-->
+<!--                    </div>-->
+<!--&lt;!&ndash;                    <div class="card-footer">&ndash;&gt;-->
+<!--&lt;!&ndash;                        <button class="btn btn-success  mx-auto d-md-block">Add to cart</button>&ndash;&gt;-->
+<!--&lt;!&ndash;                    </div>&ndash;&gt;-->
+<!--                </div>-->
+
+
+<!--            </div>-->
+<!--            <div class="col">-->
+<!--                <div class="card h-100">-->
+<!--                    <img alt="..." class="card-img-top" src="asserts/img/glouse.jpeg">-->
+<!--                    <div class="card-body text-center">-->
+<!--                        <h5 class="card-title">Glouse </h5>-->
+
+<!--                        <p class="card-text">Rs.1,200/=</p>-->
+<!--                    </div>-->
+<!--&lt;!&ndash;                    <div class="card-footer">&ndash;&gt;-->
+<!--&lt;!&ndash;                        <button class="btn btn-success  mx-auto d-md-block">Add to cart</button>&ndash;&gt;-->
+<!--&lt;!&ndash;                    </div>&ndash;&gt;-->
+<!--                </div>-->
+
+
+<!--            </div>-->
+<!--            <div class="col">-->
+<!--                <div class="card h-100">-->
+<!--                    <img alt="..." class="card-img-top" src="asserts/img/Fullset.jpg">-->
+<!--                    <div class="card-body text-center">-->
+<!--                        <h5 class="card-title">Full Tool Kit </h5>-->
+
+<!--                        <p class="card-text">Rs.2,400/=</p>-->
+<!--                    </div>-->
+<!--&lt;!&ndash;                    <div class="card-footer">&ndash;&gt;-->
+<!--&lt;!&ndash;                        <button class="btn btn-success  mx-auto d-md-block">Add to cart</button>&ndash;&gt;-->
+<!--&lt;!&ndash;                    </div>&ndash;&gt;-->
+<!--                </div>-->
+
+
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--    <div class="pt-5 " id="pageFooter">-->
+<!--        <footer class="container-fluid footer">-->
+<!--            <h6 class="text-center text-white mt-3">-->
+<!--                Copyright © 2020 All right reserved</br> Website Powered BY GAYASH-->
+<!--                THASMIKA</h6>-->
+<!--        </footer>-->
+<!--    </div>-->
+
+
+<!--</main>-->
+<!--&lt;!&ndash;cust&ndash;&gt;-->
+<!--<main id="customer">-->
+
+<!--    &lt;!&ndash;image&ndash;&gt;-->
+<!--    <img alt="" class="img w-100 " height="581px" src="asserts/img/cleints.jpeg">-->
+<!--    <div class="container-sm position-absolute" id="customerTable">-->
+<!--        <table class="table table-hover table-striped">-->
+<!--            <thead>-->
+<!--            <tr>-->
+<!--                <th scope="col">ID</th>-->
+<!--                <th scope="col">Name</th>-->
+<!--                <th scope="col">City</th>-->
+<!--                <th scope="col">Contact</th>-->
+<!--                <th scope="col">Birthday</th>-->
+<!--                <th scope="col">Gender</th>-->
+<!--                <th scope="col">Salary</th>-->
+
+<!--            </tr>-->
+<!--            </thead>-->
+<!--            <tbody id="tblCustomer">-->
+<!--            </tbody>-->
+<!--        </table>-->
+
+<!--    </div>-->
+<!--</main>-->
+<!--&lt;!&ndash;item&ndash;&gt;-->
+<!--<main id="item">-->
+<!--    &lt;!&ndash;image&ndash;&gt;-->
+<!--    <img alt="" class="img-fluid w-100 " src="asserts/img/itempage1.jpg">-->
+
+<!--    <div class="container-sm position-absolute" id="itemTable">-->
+<!--        <table class="table table-hover table-striped">-->
+<!--            <thead>-->
+<!--            <tr>-->
+<!--                <th scope="col">ID</th>-->
+<!--                <th scope="col">Name</th>-->
+<!--                <th scope="col">Quantity</th>-->
+<!--                <th scope="col">Description</th>-->
+<!--                <th scope="col">Unit price</th>-->
+<!--            </tr>-->
+<!--            </thead>-->
+<!--            <tbody id="tblItem">-->
+
+
+<!--            </tbody>-->
+<!--        </table>-->
+
+<!--    </div>-->
+
+<!--</main>-->
+<!--&lt;!&ndash;order&ndash;&gt;-->
+<!--<main id="order">-->
+
+
+<!--    &lt;!&ndash;image&ndash;&gt;-->
+<!--    <img alt="" class="img-fluid w-100 " src="asserts/img/Orderaaa.jpg">-->
+
+
+<!--    &lt;!&ndash;table&ndash;&gt;-->
+<!--    <div class="container-sm position-absolute" id="OrderTable">-->
+<!--        <table class="table table-hover table-striped">-->
+<!--            <thead>-->
+<!--            <tr>-->
+<!--                <th scope="col">OID</th>-->
+<!--                <th scope="col">Date</th>-->
+<!--                <th scope="col">Customer ID</th>-->
+<!--                <th scope="col">Item ID</th>-->
+<!--                <th scope="col">pcs</th>-->
+<!--                <th scope="col">Total</th>-->
+<!--            </tr>-->
+<!--            </thead>-->
+<!--            <tbody id="tblOrder">-->
+
+<!--            </tbody>-->
+<!--        </table>-->
+
+<!--    </div>-->
+
+
+<!--</main>-->
+
+<!--<script src="asserts/js/bootstrap.js"></script>-->
+<!--<script src="asserts/js/jquery-3.5.1.min.js"></script>-->
+<!--<script src="controller/IndexController.js"></script>-->
+<!--<script src="controller/CustomerController.js"></script>-->
+<!--<script src="controller/ItemController.js"></script>-->
+<!--<script src="controller/OrderController.js"></script>-->
+<!--<script src=" dto/CustomerDTO.js"></script>-->
+<!--<script src=" dto/ItemDTO.js"></script>-->
+<!--<script src=" dto/OrderDTO.js"></script>-->
+<!--<script src="db/Database.js"></script>-->
+<!--</body>-->
+<!--</html>-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <title>BBQ & Grilling | Accessories</title>
+    <link href="asserts/img/logo.png" rel="icon">
+    <link href="asserts/css/bootstrap.css" rel="stylesheet">
+    <link href="asserts/stylesheet/Styles.css" rel="stylesheet">
+</head>
+<body>
+<header>
+    <nav class="navbar  navbar-expand-lg  navbar-light bg-white" id="nav">
+        <div class="container-fluid ">
+            <a class="navbar-brand d-flex ms-lg-4" href="#"><img alt="" class="d-none d-lg-block "
+                                                                 src="asserts/img/logo.png"><span>BBQ</span> WORLD</a>
+            <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+                    class="navbar-toggler"
+                    data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse" type="button">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse ms-lg-5" id="navbarSupportedContent">
+                <ul class="navbar-nav d-flex text-info bg-white   me-auto mb-2 mb-lg-0">
+                    <li class="nav-item ms-lg-3">
+                        <a aria-current="page" class="nav-link active" href="#" id="lnkHome">Home</a>
+                    </li>
+
+                    <li class="nav-item dropdown ms-lg-3">
+                        <a aria-expanded="false" class="nav-link dropdown-toggle " data-bs-toggle="dropdown"
+                           href="#"
+                           id="navbarDropdownCustomer" role="button">
+                            Customer
+                        </a>
+                        <ul aria-labelledby="navbarDropdown" class="dropdown-menu ">
+                            <li><a class="dropdown-item" data-bs-target="#modalSaveCustomer"
+                                   data-bs-toggle="modal">Save new Customer</a></li>
+                            <div class="dropdown-divider"></div>
+                            <li><a class="dropdown-item" data-bs-target="#modalSearchCustomer"
+                                   data-bs-toggle="modal">Search Customer</a></li>
+                            <div class="dropdown-divider"></div>
+                            <li><a class="dropdown-item" href="#" id="lnkCust">View Customers</a></li>
+
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown ms-lg-3">
+                        <a aria-expanded="false" class="nav-link dropdown-toggle"
+                           data-bs-toggle="dropdown" href="#"
+                           id="navbarDropdownItem" role="button">
+                            Items
+                        </a>
+                        <ul aria-labelledby="navbarDropdown" class="dropdown-menu">
+                            <li><a class="dropdown-item" data-bs-target="#modalSaveItem"
+                                   data-bs-toggle="modal">Save Item</a></li>
+                            <div class="dropdown-divider"></div>
+                            <li><a class="dropdown-item" data-bs-target="#modalSearchItem"
+                                   data-bs-toggle="modal">Search Item</a></li>
+                            <div class="dropdown-divider"></div>
+                            <li><a class="dropdown-item" href="#" id="lnkItem">View Items</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown ms-lg-3">
+                        <a aria-expanded="false" class="nav-link dropdown-toggle"
+                           data-bs-toggle="dropdown" href="#"
+                           id="navbarDropdownOrder" role="button">
+                            Order
+                        </a>
+                        <ul aria-labelledby="navbarDropdown" class="dropdown-menu">
+                            <li><a class="dropdown-item" data-bs-target="#modalNewOrder" data-bs-toggle="modal"
+                                   id="btnNewOrder">New Order</a></li>
+                            <div class="dropdown-divider"></div>
+
+                            <li><a class="dropdown-item" data-bs-target="#modalSeachOrder" data-bs-toggle="modal"
+                                   id="btnSearchOrder">Search Order</a></li>
+
+
+                            <div class="dropdown-divider"></div>
+                            <li><a class="dropdown-item" href="#" id="lnkOrder">View All Orders</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item ms-lg-3">
+                        <a class="nav-link " data-bs-target="#aboutModal"
+                           data-bs-toggle="modal">About</a>
+                    </li>
+
+                </ul>
+            </div>
+            <!--            <a href="">-->
+            <!--                <img alt="" class="me-4" src="asserts/img/Shopping%20Cart%20Loaded_50px_1.png"-->
+            <!--                     style="width: 40px;height: 30px">-->
+            <!--            </a>-->
+            <form class="d-flex  ">
+                <input id="mainSearchInput" aria-label="Search" class="form-control me-2" placeholder="Search" type="search">
+                <button id="btnmainSearch" class="btn btn-outline-success" type="button">Search</button>
+                <span class="control-error" id="lblMainSearch"></span>
+
+            </form>
+
+        </div>
+    </nav>
+
+    <!--about model-->
+    <div aria-hidden="true" aria-labelledby="staticBackdropLabel" class="modal fade" data-bs-backdrop="static"
+         data-bs-keyboard="false"
+         id="aboutModal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="aboutModalTitle">About us</h5>
+                    <button aria-label="Close" class="btn-close" data-bs-dismiss="modal" type="button"></button>
+                </div>
+                <div class="modal-body">
+                    <!--//////-->
+                    <h1 style="color: #0a53be">Since 2021</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci alias amet dolor eaque eum
+                        excepturi illo</p>
+                    <p style="color: #9a0527">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci alias
+                        amet
+                        dolor eaque eum
+                        excepturi illo, illum itaque labore libero molestias obcaecati placeat porro quis quos repellat
+                        tempora vel vero.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. .</p>
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci alias amet dolor eaque eum
+                        excepturi illo, illum itaque labore libero molestias obcaecati placeat porro quis quos repellat
+                        tempora vel vero.</p>
+                    <!--///////-->
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" data-bs-dismiss="modal" type="button">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--SaveCustomer model-->
+    <div aria-hidden="true" aria-labelledby="staticBackdropLabel" class="modal fade" data-bs-backdrop="static"
+         data-bs-keyboard="false"
+         id="modalSaveCustomer" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Save New Customer</h5>
+                    <button aria-label="Close" class="btn-close" data-bs-dismiss="modal" type="button"></button>
+                </div>
+                <div class="modal-body">
+                    <!--//////-->
+                    <form>
+                        <div class="mb-3">
+                            <label class="form-label" for="cusID">Customer ID</label>
+                            <input aria-describedby="emailHelp" class="form-control" id="cusID" type="text">
+                            <span class="control-error" id="lblcusid"></span>
+
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label" for="cusName">Customer name</label>
+                            <input aria-describedby="emailHelp" class="form-control" id="cusName" type="txt">
+                            <span class="control-error" id="lblcusname"></span>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label" for="cusPW">City</label>
+                            <input class="form-control" id="cusPW" type="text">
+                            <span class="control-error" id="lblcuscity"></span>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label" for="cusContact">Contact</label>
+                            <input class="form-control" id="cusContact" type="text">
+                            <span class="control-error" id="lblcuscontact"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label>Birth of Date</label>
+                            <input class="form-control" id="cusDOB" type="date">
+                            <span class="control-error" id="lblcusDOB"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label" for="cusGender">Gender</label>
+
+                            <select aria-label="Default select example" class="form-select" id="cusGender">
+                                <option value="1"></option>
+                                <option value="1">Male</option>
+                                <option value="2">Female</option>
+                            </select>
+                            <span class="control-error" id="lblcusGendr"></span>
+                        </div>
+                        <div class="mb-3">
+                            <label>Salary</label>
+                            <input class="form-control" id="cusSalary" type="text">
+                            <span class="control-error" id="lblcusSalary"></span>
+                        </div>
+
+
+                        <div class="mb-3 form-check">
+                            <input class="form-check-input" id="exampleCheck1" type="checkbox">
+                            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                        </div>
+                    </form>
+                    <!--///////-->
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" data-bs-dismiss="modal" type="button">Close</button>
+                    <button class="btn btn-primary" id="btnSaveCus" type="button">Save</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--SearchCustomer model-->
+    <div aria-hidden="true" aria-labelledby="searchCus" class="modal fade" data-bs-backdrop="static"
+         data-bs-keyboard="false"
+         id="modalSearchCustomer" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="searchCus">Search Customer</h5>
+                    <button aria-label="Close" class="btn-close" data-bs-dismiss="modal" type="button"></button>
+                </div>
+                <div class="modal-body">
+                    <!--//////-->
+                    <form>
+                        <div class="mb-3">
+                            <label class="form-label" for="cusID">Customer ID</label>
+                            <input aria-describedby="emailHelp" class="form-control" id="cusSearchID" type="text">
+                            <span class="control-error" id="#"></span>
+
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label" for="cusName">Customer name</label>
+                            <input aria-describedby="emailHelp" class="form-control" id="cusSearchName" type="text">
+
+
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label" for="cusPW">City</label>
+                            <input class="form-control" id="cusSearchPW" type="text">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label" for="cusContact">Contact</label>
+                            <input class="form-control" id="cusSearchContact" type="text">
+                        </div>
+
+                        <div class="mb-3">
+                            <label>Birth of Date</label>
+                            <input class="form-control" id="cusSearchDOB" type="text">
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label" for="cusGender" >Gender</label>
+                            <input class="form-control" id="cusSearchGender" type="text" readonly>
+
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label" for="cusSalary">Salary</label>
+                            <input class="form-control" id="cusSearchSalary" type="text">
+
+                        </div>
+
+                        <div class="mb-3 form-check">
+                            <input class="form-check-input" id="exampleCheck3" type="checkbox">
+                            <label class="form-check-label" for="exampleCheck3">Update</label>
+                            <button class="btn btn-primary" id="btnUpdateCus" type="button">Update</button>
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input class="form-check-input" id="exampleCheck4" type="checkbox">
+                            <label class="form-check-label" for="exampleCheck4">Delete</label>
+                            <button class="btn btn-danger ms-1" id="btnDeleteCus" style="width: 100px" type="button">
+                                Delete
+                            </button>
+                        </div>
+                    </form>
+                    <!--///////-->
+                </div>
+                <!--            <div class="modal-footer ">-->
+                <!--                <button class="btn btn-secondary" data-bs-dismiss="modal" type="button">Close</button>-->
+
+                <!--            </div>-->
+            </div>
+        </div>
+    </div>
+
+
+    <!--SaveItem model-->
+    <div aria-hidden="true" aria-labelledby="staticBackdropLabel" class="modal fade" data-bs-backdrop="static"
+         data-bs-keyboard="false"
+         id="modalSaveItem" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="saveItemTitle">Save New Item</h5>
+                    <button aria-label="Close" class="btn-close" data-bs-dismiss="modal" type="button"></button>
+                </div>
+                <div class="modal-body">
+                    <!--//////-->
+                    <form>
+                        <div class="mb-3">
+                            <label class="form-label" for="itemID">Item ID</label>
+                            <input class="form-control" id="itemID" type="text">
+                            <span class="control-error" id="lblitemid"></span>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label" for="itemName">Item name</label>
+                            <input aria-describedby="emailHelp" class="form-control" id="itemName" type="text">
+                            <span class="control-error" id="lblitemname"></span>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label" for="itemQuantity">Availabe quantity</label>
+                            <input class="form-control" id="itemQuantity" type="number">
+                            <span class="control-error" id="lblitemqty"></span>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label" for="itemDescription">Description</label>
+                            <textarea aria-label="With textarea" class="form-control" id="itemDescription"></textarea>
+                            <span class="control-error" id="lblitemtype"></span>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label" for="itemPrice">Item unit Price</label>
+                            <input class="form-control" id="itemPrice" type="text">
+                            <span class="control-error" id="lblitemprice"></span>
+                        </div>
+
+                        <div class="mb-3">
+
+                            <div class="row ">
+                                <div class="col-12 mx-auto">
+
+                                    <!-- Upload image input-->
+                                    <div class="input-group mb-3  bg-white shadow-sm">
+                                        <input class="form-control border-0" id="upload" onchange="readURL(this);"
+                                               type="file">
+                                    </div>
+
+                                    <!-- Uploaded image area-->
+                                    <p class="font-italic text-dark text-center">The image uploaded will be rendered
+                                        inside
+                                        the box below.</p>
+                                    <div class="image-area mt-4"><img alt=""
+                                                                      class="img-fluid rounded shadow-sm mx-auto d-block"
+                                                                      id="imageResult" src="">
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="mb-3 form-check">
+                            <input class="form-check-input" id="exampleCheck2" type="checkbox">
+                            <label class="form-check-label" for="exampleCheck2">Check me out</label>
+                        </div>
+
+
+                    </form>
+                    <!--///////-->
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" data-bs-dismiss="modal" type="button">Close</button>
+                    <button class="btn btn-primary" id="btnSaveItem" type="button">Save</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--SearchItem model-->
+    <div aria-hidden="true" aria-labelledby="staticBackdropLabel" class="modal fade" data-bs-backdrop="static"
+         data-bs-keyboard="false"
+         id="modalSearchItem" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="searchItemTitle">Search Item</h5>
+                    <button aria-label="Close" class="btn-close" data-bs-dismiss="modal" type="button"></button>
+                </div>
+                <div class="modal-body">
+                    <!--//////-->
+                    <form>
+                        <div class="mb-3">
+                            <label class="form-label" for="itemSearchID">Item ID</label>
+                            <input class="form-control" id="itemSearchID" type="text">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label" for="itemSearchName">Item name</label>
+                            <input aria-describedby="emailHelp" class="form-control" id="itemSearchName" type="text">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label" for="itemSearchQuantity">Availabe quantity</label>
+                            <input class="form-control" id="itemSearchQuantity" type="number">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label" for="itemSearchDescription">Description</label>
+                            <textarea aria-label="With textarea" class="form-control"
+                                      id="itemSearchDescription"></textarea>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label" for="itemSearchPrice">Item unit Price</label>
+                            <input class="form-control" id="itemSearchPrice" type="text">
+                        </div>
+                        <!-- imgView-->
+
+
+                        <!--                        <div class="text-center">-->
+                        <!--                            <img alt="..." class="rounded" id="setSearchImg" src="">-->
+                        <!--                        </div>-->
+                        <!--new-->
+                        <div class="mb-3">
+
+                            <div class="row ">
+                                <div class="col-12 mx-auto">
+
+                                    <!-- Upload image input-->
+                                    <div class="input-group mb-3  bg-white shadow-sm">
+                                        <input class="form-control border-0" id="uploadNew" onchange="readURL(this);"
+                                               type="file">
+                                        <!--                                    <label id="upload-label" for="upload" class="font-weight-light text-muted">Choose file</label>-->
+                                        <div class="input-group-append">
+                                            <label class="btn btn-light m-0 rounded-pill px-4" for="upload"> <i
+                                                    class="fa fa-cloud-upload mr-2 text-muted"></i><small
+                                                    class="text-uppercase font-weight-bold text-muted">Choose
+                                                file</small></label>
+                                        </div>
+                                    </div>
+
+                                    <!-- Uploaded image area-->
+                                    <p class="font-italic text-dark text-center">The image uploaded will be rendered
+                                        inside
+                                        the box below.</p>
+                                    <div class="image-area mt-4"><img alt=""
+                                                                      class="img-fluid rounded shadow-sm mx-auto d-block"
+                                                                      id="imageResultNew"
+                                                                      src="#">
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--imgEnd-->
+
+                        <div class="mb-3 form-check">
+                            <input class="form-check-input" id="exampleCheck5" type="checkbox">
+                            <label class="form-check-label" for="exampleCheck5">Update</label>
+                            <button class="btn btn-primary" id="btnUpdateItem" type="button">Update</button>
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input class="form-check-input" id="exampleCheck6" type="checkbox">
+                            <label class="form-check-label" for="exampleCheck6">Delete</label>
+                            <button class="btn btn-danger ms-1" id="btnDeleteItem" style="width: 100px" type="button">
+                                Delete
+                            </button>
+                        </div>
+
+
+                    </form>
+                    <!--///////-->
+                </div>
+                <!--            <div class="modal-footer">-->
+                <!--                <button class="btn btn-secondary" data-bs-dismiss="modal" type="button">Close</button>-->
+                <!--                <button class="btn btn-primary" type="button">Save</button>-->
+                <!--            </div>-->
+            </div>
+        </div>
+    </div>
+
+
+    <!--Order modal-->
+    <div aria-hidden="true" aria-labelledby="staticBackdropLabel" class="modal fade" data-bs-backdrop="static"
+         data-bs-keyboard="false"
+         id="modalNewOrder" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="orderTitle">New Order</h5>
+                    <button aria-label="Close" class="btn-close" data-bs-dismiss="modal" type="button"></button>
+                </div>
+                <div class="modal-body">
+                    <!--//////-->
+                    <form>
+                        <div class="mb-3">
+                            <label class="form-label" for="orderID">Order ID</label>
+                            <input class="form-control" id="orderID" type="text">
+                            <span class="control-error" id="lblOrderid"></span>
+
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label" for="orderDate">Order Date</label>
+                            <input class="form-control" id="orderDate" type="date">
+                            <span class="control-error" id="lblOrderdate"></span>
+
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label" for="cusOrderID">Customer ID</label>
+
+                            <select aria-label="Default select example" class="form-select" id="cusOrderID">
+
+
+                            </select>
+                            <span class="control-error" id="lblOrdercusid"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label" for="itemOrderID">Item ID</label>
+
+                            <select aria-label="Default select example" class="form-select" id="itemOrderID">
+
+                            </select>
+                            <span class="control-error" id="lblOrderitemid"></span>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label" for="orderOnePcsPrice">Price(1psc)</label>
+                            <input class="form-control " id="orderOnePcsPrice" type="text" readonly>
+                            <span class="control-error" id="lblOrderPrice"></span>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label" for="orderQuantity">pcs</label>
+                            <input class="form-control" id="orderQuantity" type="number">
+                            <span class="control-error" id="lblOrderpsc"></span>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label" for="orderDiscount">Discount</label>
+                            <input class="form-control" id="orderDiscount" type="number">
+                            <span class="control-error" id="lblOrderDiscount"></span>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label text-danger" for="orderTotal">Total(Rs)</label>
+                            <input class="form-control" id="orderTotal" type="number" readonly>
+                            <span class="control-error" id="lblOrderTotal"></span>
+                        </div>
+
+                        <div class="mb-3 form-check">
+                            <input class="form-check-input" id="exampleCheck7" type="checkbox">
+                            <label class="form-check-label" for="exampleCheck7">Check me out</label>
+                        </div>
+                    </form>
+                    <!--///////-->
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" data-bs-dismiss="modal" type="button">Close</button>
+                    <button class="btn btn-primary" id="btnsaveOrder" type="button">Save</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- search order modal-->
+    <div aria-hidden="true" aria-labelledby="staticBackdropLabel" class="modal fade" data-bs-backdrop="static"
+         data-bs-keyboard="false"
+         id="modalSeachOrder" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="orderSearchTitle">Search Order</h5>
+                    <button aria-label="Close" class="btn-close" data-bs-dismiss="modal" type="button"></button>
+                </div>
+                <div class="modal-body">
+                    <!--//////-->
+                    <form>
+                        <div class="mb-3">
+                            <label class="form-label" for="orderSearchID">Order ID</label>
+                            <input class="form-control" id="orderSearchID" type="text">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label" for="orderSearchDate">Order Date</label>
+                            <input class="form-control" id="orderSearchDate" type="text">
+
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label" for="cusOrderSeachID">Customer ID</label>
+                            <input class="form-control " id="cusOrderSeachID" type="text">
+
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label" for="itemOrderSearchID">Item ID</label>
+                            <input class="form-control " id="itemOrderSearchID" type="text">
+
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label" for="orderSearchQuantity">pcs</label>
+                            <input class="form-control" id="orderSearchQuantity" type="number">
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label text-danger" for="orderSearchTotal">Total</label>
+                            <input class="form-control" id="orderSearchTotal" type="number">
+                        </div>
+
+                    </form>
+                    <!--///////-->
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" data-bs-dismiss="modal" type="button">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+</header>
+
+<!--dash-->
+
+<main id="dashboard">
+    <!--navigation bar-->
+
+    <!--image-->
+    <img alt="" class="img-fluid  w-100 " src="asserts/img/1.jpg">
+
+
+    <!--text trending products-->
+    <h1 class="h1 mt-3 ms-3 " style="font-family: 'Eras Bold ITC'">Trending products</h1>
+    <!--trending products-->
+    <div class="container-fluid  mb-5 " id="catalouge">
+        <div class="row row-cols-1 row-cols-md-4 g-4 ">
+            <div class="col">
+                <div class="card h-100">
+                    <img alt="..." class="card-img-top" src="asserts/img/item01.jpg">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Protable Char-Griller 3leg</h5>
+
+                        <p class="card-text">Rs.9,750/=</p>
+                    </div>
+                    <!--                    <div class="card-footer">-->
+                    <!--                        <button class="btn btn-success  mx-auto d-md-block">Add to cart</button>-->
+                    <!--                    </div>-->
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img alt="..." class="card-img-top" src="asserts/img/item02.jpg">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Char-Griller 4leg</h5>
+
+                        <p class="card-text">Rs.11,999/=</p>
+                    </div>
+                    <!--                    <div class="card-footer">-->
+                    <!--                        <button class="btn btn-success  mx-auto d-md-block">Add to cart</button>-->
+                    <!--                    </div>-->
+                </div>
+
+
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img alt="..." class="card-img-top" src="asserts/img/Antique.jpg">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Antique Char-Griller </h5>
+
+                        <p class="card-text">Rs.12,350/=</p>
+                    </div>
+                    <!--                    <div class="card-footer">-->
+                    <!--                        <button class="btn btn-success  mx-auto d-md-block">Add to cart</button>-->
+                    <!--                    </div>-->
+                </div>
+
+
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img alt="..." class="card-img-top" src="asserts/img/routing.png">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Routing Char-Griller </h5>
+
+                        <p class="card-text">Rs.15,350/=</p>
+                    </div>
+                    <!--                    <div class="card-footer">-->
+                    <!--                        <button class="btn btn-success  mx-auto d-md-block">Add to cart</button>-->
+                    <!--                    </div>-->
+                </div>
+
+
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img alt="..." class="card-img-top" src="asserts/img/charcole.jpg">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">charcoal </h5>
+
+                        <p class="card-text">Rs.350/=</p>
+                    </div>
+                    <!--                    <div class="card-footer">-->
+                    <!--                        <button class="btn btn-success  mx-auto d-md-block">Add to cart</button>-->
+                    <!--                    </div>-->
+                </div>
+
+
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img alt="..." class="card-img-top" src="asserts/img/minisize.jpg">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">MiniSize Char-Griller </h5>
+
+                        <p class="card-text">Rs.5,650/=</p>
+                    </div>
+                    <!--                    <div class="card-footer">-->
+                    <!--                        <button class="btn btn-success  mx-auto d-md-block">Add to cart</button>-->
+                    <!--                    </div>-->
+                </div>
+
+
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img alt="..." class="card-img-top" src="asserts/img/glouse.jpeg">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Glouse </h5>
+
+                        <p class="card-text">Rs.1,200/=</p>
+                    </div>
+                    <!--                    <div class="card-footer">-->
+                    <!--                        <button class="btn btn-success  mx-auto d-md-block">Add to cart</button>-->
+                    <!--                    </div>-->
+                </div>
+
+
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img alt="..." class="card-img-top" src="asserts/img/Fullset.jpg">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Full Tool Kit </h5>
+
+                        <p class="card-text">Rs.2,400/=</p>
+                    </div>
+                    <!--                    <div class="card-footer">-->
+                    <!--                        <button class="btn btn-success  mx-auto d-md-block">Add to cart</button>-->
+                    <!--                    </div>-->
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    <div class="pt-5 " id="pageFooter">
+        <footer class="container-fluid footer">
+            <h6 class="text-center text-white mt-3">
+                Copyright ©️ 2020 All right reserved</br> Website Powered BY GAYASH
+                THASMIKA</h6>
+        </footer>
+    </div>
+
+
+</main>
+<!--cust-->
+<main id="customer">
+
+    <!--image-->
+    <img alt="" class="img w-100 " height="581px" src="asserts/img/cleints.jpeg">
+    <div class="container-sm position-absolute" id="customerTable">
+        <table class="table table-hover table-striped">
+            <thead>
+            <tr>
+                <th scope="col">ID</th>
+                <th scope="col">Name</th>
+                <th scope="col">City</th>
+                <th scope="col">Contact</th>
+                <th scope="col">Birthday</th>
+                <th scope="col">Gender</th>
+                <th scope="col">Salary</th>
+
+            </tr>
+            </thead>
+            <tbody id="tblCustomer">
+            </tbody>
+        </table>
+
+    </div>
+</main>
+<!--item-->
+<main id="item">
+    <!--image-->
+    <img alt="" class="img-fluid w-100 " src="asserts/img/itempage1.jpg">
+
+    <div class="container-sm position-absolute" id="itemTable">
+        <table class="table table-hover table-striped">
+            <thead>
+            <tr>
+                <th scope="col">ID</th>
+                <th scope="col">Name</th>
+                <th scope="col">Quantity</th>
+                <th scope="col">Description</th>
+                <th scope="col">Unit price</th>
+            </tr>
+            </thead>
+            <tbody id="tblItem">
+
+
+            </tbody>
+        </table>
+
+    </div>
+
+</main>
+<!--order-->
+<main id="order">
+
+
+    <!--image-->
+    <img alt="" class="img-fluid w-100 " src="asserts/img/Orderaaa.jpg">
+
+
+    <!--table-->
+    <div class="container-sm position-absolute" id="OrderTable">
+        <table class="table table-hover table-striped">
+            <thead>
+            <tr>
+                <th scope="col">OID</th>
+                <th scope="col">Date</th>
+                <th scope="col">Customer ID</th>
+                <th scope="col">Item ID</th>
+                <th scope="col">pcs</th>
+                <th scope="col">Total</th>
+            </tr>
+            </thead>
+            <tbody id="tblOrder">
+
+            </tbody>
+        </table>
+
+    </div>
+
+
+</main>
+
+<script src="asserts/js/bootstrap.js"></script>
+<script src="asserts/js/jquery-3.5.1.min.js"></script>
+<script src="controller/IndexController.js"></script>
+<script src="controller/CustomerController.js"></script>
+<script src="controller/ItemController.js"></script>
+<script src="controller/OrderController.js"></script>
+<script src=" dto/CustomerDTO.js"></script>
+<script src=" dto/ItemDTO.js"></script>
+<script src=" dto/OrderDTO.js"></script>
+<script src="db/Database.js"></script>
+</body>
+</html>
